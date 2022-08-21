@@ -1,0 +1,572 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Multicycle RISC/simulation/modelsim
+Ealu
+Z1 w1540920558
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8D:/Multicycle RISC/ALU.vhd
+Z7 FD:/Multicycle RISC/ALU.vhd
+l0
+L8
+VjU4S8n6F:[zi^9@JN<D@H0
+!s100 o18c>3a232>^H?9MJLYhE3
+Z8 OV;C;10.4d;61
+31
+Z9 !s110 1541675035
+!i10b 1
+Z10 !s108 1541675035.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/ALU.vhd|
+Z12 !s107 D:/Multicycle RISC/ALU.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1
+Aalu_arch
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 jU4S8n6F:[zi^9@JN<D@H0
+l20
+L17
+VFl<gojCPS6ceA7FSDXEj:2
+!s100 4FkbdCGhD:6@[^=_EaGL@0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Econtroller
+Z15 w1541361840
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z17 8D:/Multicycle RISC/Controller.vhd
+Z18 FD:/Multicycle RISC/Controller.vhd
+l0
+L8
+VNJI;_1z>JkGlXVkGFVOA>3
+!s100 P>1Ti5d:A`UX=@BEPjc3k1
+R8
+31
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Controller.vhd|
+Z20 !s107 D:/Multicycle RISC/Controller.vhd|
+!i113 1
+R13
+R14
+Abehave
+R16
+R4
+R5
+DEx4 work 10 controller 0 22 NJI;_1z>JkGlXVkGFVOA>3
+l63
+L57
+VzN:l[G<aiYNP[9:0RGUJ12
+!s100 Gik1oS<Vm:OAV`QTW<[S63
+R8
+31
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Einc
+Z21 w1540658493
+R2
+R3
+R4
+R5
+R0
+Z22 8D:/Multicycle RISC/INC.vhd
+Z23 FD:/Multicycle RISC/INC.vhd
+l0
+L8
+Vn5=MCcT7hP38E98oz1J>B1
+!s100 :eEiOHF3BY6B@BGbk5MfA0
+R8
+31
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/INC.vhd|
+Z25 !s107 D:/Multicycle RISC/INC.vhd|
+!i113 1
+R13
+R14
+Ainc_arch
+R2
+R3
+R4
+R5
+DEx4 work 3 inc 0 22 n5=MCcT7hP38E98oz1J>B1
+l13
+L12
+VkaEF>Jbchg_EYTW<hoBd11
+!s100 PzBYkin>e9MYSjLR_>69N2
+R8
+31
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Ememory
+Z26 w1541401145
+R16
+R4
+R5
+R0
+Z27 8D:/Multicycle RISC/Memory.vhd
+Z28 FD:/Multicycle RISC/Memory.vhd
+l0
+L8
+V1=NC[^5eLi6bVW2Eh=DYc3
+!s100 M@CQmNHO;knUX`Odc^Oz60
+R8
+31
+R9
+!i10b 1
+R10
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Memory.vhd|
+Z30 !s107 D:/Multicycle RISC/Memory.vhd|
+!i113 1
+R13
+R14
+Amemory_arch
+R16
+R4
+R5
+DEx4 work 6 memory 0 22 1=NC[^5eLi6bVW2Eh=DYc3
+l19
+L16
+Vi8J_bPKUnB@LP;TZW<bAZ3
+!s100 gYX:Z0d]6Iga6=59ne8F<2
+R8
+31
+R9
+!i10b 1
+R10
+R29
+R30
+!i113 1
+R13
+R14
+Emux2
+Z31 w1540579031
+R4
+R5
+R0
+Z32 8D:/Multicycle RISC/Mux2.vhd
+Z33 FD:/Multicycle RISC/Mux2.vhd
+l0
+L4
+VbWgXVfCmWAaSg]azK:fdQ1
+!s100 :WDMJ>IIe7oYE;mcKW?[m0
+R8
+31
+Z34 !s110 1541675037
+!i10b 1
+Z35 !s108 1541675037.000000
+Z36 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Mux2.vhd|
+Z37 !s107 D:/Multicycle RISC/Mux2.vhd|
+!i113 1
+R13
+R14
+Abehave
+R4
+R5
+DEx4 work 4 mux2 0 22 bWgXVfCmWAaSg]azK:fdQ1
+l15
+L14
+VGn];W`WT3j^WzY?kYb`0<2
+!s100 MH6MSMW;?oDgm<Q0U2fMm3
+R8
+31
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R13
+R14
+Emux4
+Z38 w1540579009
+R4
+R5
+R0
+Z39 8D:/Multicycle RISC/Mux4.vhd
+Z40 FD:/Multicycle RISC/Mux4.vhd
+l0
+L4
+VQPfD>`KzezM72d[@LbA2k3
+!s100 @ZFgBO<ImLV5aPmznEz233
+R8
+31
+Z41 !s110 1541675036
+!i10b 1
+Z42 !s108 1541675036.000000
+Z43 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Mux4.vhd|
+Z44 !s107 D:/Multicycle RISC/Mux4.vhd|
+!i113 1
+R13
+R14
+Abehave
+R4
+R5
+DEx4 work 4 mux4 0 22 QPfD>`KzezM72d[@LbA2k3
+l17
+L16
+VNPQOM`H@CgEb^F;?<@E7:0
+!s100 DTL3=VUf`cOnfm2AEjzEo3
+R8
+31
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R13
+R14
+Emux8
+Z45 w1540578711
+R4
+R5
+R0
+Z46 8D:/Multicycle RISC/Mux8.vhd
+Z47 FD:/Multicycle RISC/Mux8.vhd
+l0
+L4
+V`UKUXHPfBGEGHDIb7_f1Q0
+!s100 LIe0ZKcAJW52Z:JW]9Z8l3
+R8
+31
+R34
+!i10b 1
+R35
+Z48 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Mux8.vhd|
+Z49 !s107 D:/Multicycle RISC/Mux8.vhd|
+!i113 1
+R13
+R14
+Abehave
+R4
+R5
+DEx4 work 4 mux8 0 22 `UKUXHPfBGEGHDIb7_f1Q0
+l21
+L20
+V2XBS@Xj>bnW8R=Sg^RjR<3
+!s100 3CdAoY8FRm3>[i0dT9NX_0
+R8
+31
+R34
+!i10b 1
+R35
+R48
+R49
+!i113 1
+R13
+R14
+Epadder
+Z50 w1540569379
+R4
+R5
+R0
+Z51 8D:/Multicycle RISC/Padder.vhd
+Z52 FD:/Multicycle RISC/Padder.vhd
+l0
+L4
+V1NLIoGB:_oILfY4jRIA6D3
+!s100 4dRMRiQU>C>6SR>Vd5@gI3
+R8
+31
+R41
+!i10b 1
+R42
+Z53 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Padder.vhd|
+Z54 !s107 D:/Multicycle RISC/Padder.vhd|
+!i113 1
+R13
+R14
+Awhatdoyoucare
+R4
+R5
+DEx4 work 6 padder 0 22 1NLIoGB:_oILfY4jRIA6D3
+l12
+L11
+V_GJ]FYzjMlU>Vb`DfGQao2
+!s100 lNYKV;M4=J4i0MKcU1e8G3
+R8
+31
+R41
+!i10b 1
+R42
+R53
+R54
+!i113 1
+R13
+R14
+Eregfile
+Z55 w1541400636
+R16
+R4
+R5
+R0
+Z56 8D:/Multicycle RISC/RegFile.vhd
+Z57 FD:/Multicycle RISC/RegFile.vhd
+l0
+L8
+VgP>]I3^;IHm=nVLWW39g:1
+!s100 ;m4[G8eECbWAFme0f9EMD0
+R8
+31
+R9
+!i10b 1
+R10
+Z58 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/RegFile.vhd|
+Z59 !s107 D:/Multicycle RISC/RegFile.vhd|
+!i113 1
+R13
+R14
+Areg_file_arch
+R16
+R4
+R5
+DEx4 work 7 regfile 0 22 gP>]I3^;IHm=nVLWW39g:1
+l22
+L19
+V7MF4_D2@oV4PGP_l2n@gO2
+!s100 :V3Pc2efiQ5F7HMTP9AWc1
+R8
+31
+R9
+!i10b 1
+R10
+R58
+R59
+!i113 1
+R13
+R14
+Eregister16
+Z60 w1540652588
+R4
+R5
+R0
+Z61 8D:/Multicycle RISC/Register16.vhd
+Z62 FD:/Multicycle RISC/Register16.vhd
+l0
+L4
+VzBRm0m9L>blfUeB;G]m373
+!s100 ]g8<4VITE0zJ>DUW3g16J0
+R8
+31
+R34
+!i10b 1
+R42
+Z63 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Register16.vhd|
+Z64 !s107 D:/Multicycle RISC/Register16.vhd|
+!i113 1
+R13
+R14
+Abehave
+R4
+R5
+DEx4 work 10 register16 0 22 zBRm0m9L>blfUeB;G]m373
+l16
+L14
+V5L:SMh`]NOLRM_2bf=45A1
+!s100 OPBQ55<dhhI2E132H3JnG2
+R8
+31
+R34
+!i10b 1
+R42
+R63
+R64
+!i113 1
+R13
+R14
+Eregister3
+Z65 w1540652658
+R4
+R5
+R0
+Z66 8D:/Multicycle RISC/Register3.vhd
+Z67 FD:/Multicycle RISC/Register3.vhd
+l0
+L4
+Vcg4Ai[E<h;VOKIoDUkHHS2
+!s100 B;Uc18LMUMUz2KWeIBO>52
+R8
+31
+R41
+!i10b 1
+R42
+Z68 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/Register3.vhd|
+Z69 !s107 D:/Multicycle RISC/Register3.vhd|
+!i113 1
+R13
+R14
+Abehave
+R4
+R5
+DEx4 work 9 register3 0 22 cg4Ai[E<h;VOKIoDUkHHS2
+l16
+L14
+V[X^LNQZ?neVjX1jP]7l`=3
+!s100 8nZa<Df94JShO2T9[OFFo3
+R8
+31
+R41
+!i10b 1
+R42
+R68
+R69
+!i113 1
+R13
+R14
+Esignextender6
+Z70 w1540570770
+R4
+R5
+R0
+Z71 8D:/Multicycle RISC/SignExtender6.vhd
+Z72 FD:/Multicycle RISC/SignExtender6.vhd
+l0
+L4
+V3QT`ZdjWF_0E>f01^=AGn0
+!s100 Dgoc9F[PF1a5HZe92h_7H1
+R8
+31
+R34
+!i10b 1
+R35
+Z73 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/SignExtender6.vhd|
+Z74 !s107 D:/Multicycle RISC/SignExtender6.vhd|
+!i113 1
+R13
+R14
+Awhatdoyoucare
+R4
+R5
+DEx4 work 13 signextender6 0 22 3QT`ZdjWF_0E>f01^=AGn0
+l12
+L11
+VzZJOQ0IfVELWVR=]FM3nb3
+!s100 1G:`[aSabB4mX0G9@K^bG1
+R8
+31
+R34
+!i10b 1
+R35
+R73
+R74
+!i113 1
+R13
+R14
+Esignextender9
+Z75 w1540667508
+R4
+R5
+R0
+Z76 8D:/Multicycle RISC/SignExtender9.vhd
+Z77 FD:/Multicycle RISC/SignExtender9.vhd
+l0
+L4
+VCb1WN4T<R9jV^o3SJCl;c2
+!s100 AiTlemGaoPW0=GY;1j]gI2
+R8
+31
+R41
+!i10b 1
+R42
+Z78 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/SignExtender9.vhd|
+Z79 !s107 D:/Multicycle RISC/SignExtender9.vhd|
+!i113 1
+R13
+R14
+Awhatdoyoucare
+R4
+R5
+DEx4 work 13 signextender9 0 22 Cb1WN4T<R9jV^o3SJCl;c2
+l12
+L11
+VEGeQT:Nl:RA5j1z9N>z_D3
+!s100 ?mnnb=Fk3DlIHaVV3GQIm3
+R8
+31
+R41
+!i10b 1
+R42
+R78
+R79
+!i113 1
+R13
+R14
+Etoplevel
+Z80 w1541400695
+R16
+R4
+R5
+R0
+Z81 8D:/Multicycle RISC/TopLevel.vhd
+Z82 FD:/Multicycle RISC/TopLevel.vhd
+l0
+L8
+VNKj=<e5:QIMO5^09C^0[03
+!s100 [L8cB=Al0dKEnKR2]iXP;2
+R8
+31
+Z83 !s110 1541675038
+!i10b 1
+Z84 !s108 1541675038.000000
+Z85 !s90 -reportprogress|300|-93|-work|work|D:/Multicycle RISC/TopLevel.vhd|
+Z86 !s107 D:/Multicycle RISC/TopLevel.vhd|
+!i113 1
+R13
+R14
+Abehave
+R16
+R4
+R5
+DEx4 work 8 toplevel 0 22 NKj=<e5:QIMO5^09C^0[03
+l214
+L15
+V>e9I1cQkL85eKZRD0IW[R2
+!s100 VKZ5Bd=aDJ@R^NnE[IENC2
+R8
+31
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R13
+R14

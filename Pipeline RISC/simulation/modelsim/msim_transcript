@@ -1,0 +1,873 @@
+# Reading D:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do PipelineRISC_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying D:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/Pipeline RISC/status_file.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:44 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/status_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity status_file
+# -- Compiling architecture status_file_arch of status_file
+# End time: 20:50:44 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/priority_encoder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:44 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity priority_encoder
+# -- Compiling architecture priority_encoder_arch of priority_encoder
+# End time: 20:50:44 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/hazard_unit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:44 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/hazard_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity hazard_unit
+# -- Compiling architecture hazard_unit_arch of hazard_unit
+# End time: 20:50:44 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/FSM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:44 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FSM
+# -- Compiling architecture fsm_arch of FSM
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/forwarding_unit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/forwarding_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity forwarding_unit
+# -- Compiling architecture forwarding_unit_arch of forwarding_unit
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/ALU.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ALU
+# -- Compiling architecture Behave of ALU
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Mux2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Mux2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2
+# -- Compiling architecture Behave of Mux2
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Mux4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Mux4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4
+# -- Compiling architecture Behave of Mux4
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/BitRem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/BitRem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BitRem
+# -- Compiling architecture Behave of BitRem
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipeRegA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipeRegA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PipeRegA
+# -- Compiling architecture Behave of PipeRegA
+# End time: 20:50:45 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipeRegB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:45 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipeRegB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PipeRegB
+# -- Compiling architecture Behave of PipeRegB
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipeRegC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipeRegC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PipeRegC
+# -- Compiling architecture Behave of PipeRegC
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipeRegD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipeRegD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PipeRegD
+# -- Compiling architecture Behave of PipeRegD
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipeRegE.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipeRegE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PipeRegE
+# -- Compiling architecture Behave of PipeRegE
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Controller.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Controller
+# -- Compiling architecture Behave of Controller
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Padder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Padder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Padder
+# -- Compiling architecture Behave of Padder
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/SignExtender1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/SignExtender1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SignExtender1
+# -- Compiling architecture Behave of SignExtender1
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/SignExtender2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:46 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/SignExtender2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SignExtender2
+# -- Compiling architecture Behave of SignExtender2
+# End time: 20:50:46 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Equal.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Equal.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Equal
+# -- Compiling architecture Behave of Equal
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture Behave of Adder
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/DataMem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/DataMem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DataMem
+# -- Compiling architecture Behave of DataMem
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/InstrMem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/InstrMem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity InstrMem
+# -- Compiling architecture Behave of InstrMem
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/RegFile.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegFile
+# -- Compiling architecture Behave of RegFile
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture Behave of PC
+# End time: 20:50:47 on Nov 30,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Pipeline RISC/PipelineRISC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:50:47 on Nov 30,2018
+# vcom -reportprogress 300 -93 -work work D:/Pipeline RISC/PipelineRISC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PipelineRISC
+# -- Compiling architecture Behave of PipelineRISC
+# End time: 20:50:48 on Nov 30,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.pipelinerisc
+# vsim work.pipelinerisc 
+# Start time: 20:50:53 on Nov 30,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipelinerisc(behave)
+# Loading work.hazard_unit(hazard_unit_arch)
+# Loading work.status_file(status_file_arch)
+# Loading work.fsm(fsm_arch)
+# Loading work.pc(behave)
+# Loading work.mux4(behave)
+# Loading work.adder(behave)
+# Loading work.instrmem(behave)
+# Loading work.piperega(behave)
+# Loading work.controller(behave)
+# Loading work.forwarding_unit(forwarding_unit_arch)
+# Loading work.piperegb(behave)
+# Loading work.mux2(behave)
+# Loading work.regfile(behave)
+# Loading work.bitrem(behave)
+# Loading work.piperegc(behave)
+# Loading work.alu(behave)
+# Loading work.padder(behave)
+# Loading work.signextender1(behave)
+# Loading work.signextender2(behave)
+# Loading work.equal(behave)
+# Loading work.piperegd(behave)
+# Loading work.datamem(behave)
+# Loading work.priority_encoder(priority_encoder_arch)
+# Loading work.piperege(behave)
+add wave -position insertpoint  \
+sim:/pipelinerisc/clk \
+sim:/pipelinerisc/nrst \
+sim:/pipelinerisc/clk_50 \
+sim:/pipelinerisc/r0 \
+sim:/pipelinerisc/r1 \
+sim:/pipelinerisc/r2 \
+sim:/pipelinerisc/r3 \
+sim:/pipelinerisc/r4 \
+sim:/pipelinerisc/r5 \
+sim:/pipelinerisc/r6 \
+sim:/pipelinerisc/r7 \
+sim:/pipelinerisc/pc_in \
+sim:/pipelinerisc/pc_in_a \
+sim:/pipelinerisc/pc_in_b \
+sim:/pipelinerisc/pc_in_tmp \
+sim:/pipelinerisc/bm_c_in \
+sim:/pipelinerisc/bm_c_in_a \
+sim:/pipelinerisc/bm_c_in_b \
+sim:/pipelinerisc/bm_c_in_tmp \
+sim:/pipelinerisc/r1_c_in \
+sim:/pipelinerisc/r1_c_in_a \
+sim:/pipelinerisc/r1_c_in_b \
+sim:/pipelinerisc/r1_c_in_tmp \
+sim:/pipelinerisc/alu_a_in \
+sim:/pipelinerisc/alu_a_in_a \
+sim:/pipelinerisc/alu_a_in_b \
+sim:/pipelinerisc/alu_b_in \
+sim:/pipelinerisc/alu_b_in_a \
+sim:/pipelinerisc/alu_b_in_b \
+sim:/pipelinerisc/ao_d_in \
+sim:/pipelinerisc/ao_d_in_a \
+sim:/pipelinerisc/ao_d_in_b \
+sim:/pipelinerisc/alu_op \
+sim:/pipelinerisc/alu_op_a \
+sim:/pipelinerisc/alu_op_b \
+sim:/pipelinerisc/rf_a2_in \
+sim:/pipelinerisc/rf_a2_in_a \
+sim:/pipelinerisc/rf_a2_in_b \
+sim:/pipelinerisc/rf_a2_in_c \
+sim:/pipelinerisc/mem_addr_in \
+sim:/pipelinerisc/mem_addr_in_a \
+sim:/pipelinerisc/mem_addr_in_b \
+sim:/pipelinerisc/mem_addr_in_c \
+sim:/pipelinerisc/mem_din_in \
+sim:/pipelinerisc/mem_din_in_a \
+sim:/pipelinerisc/mem_din_in_b \
+sim:/pipelinerisc/mem_din_in_c \
+sim:/pipelinerisc/r7_din_in \
+sim:/pipelinerisc/r7_din_in_a \
+sim:/pipelinerisc/r7_din_in_b \
+sim:/pipelinerisc/r7_din_in_c \
+sim:/pipelinerisc/r7_din_in_tmp \
+sim:/pipelinerisc/r7_write \
+sim:/pipelinerisc/r7_write_a \
+sim:/pipelinerisc/r7_write_b \
+sim:/pipelinerisc/r7_write_c \
+sim:/pipelinerisc/mem_write \
+sim:/pipelinerisc/mem_write_a \
+sim:/pipelinerisc/mem_write_b \
+sim:/pipelinerisc/mem_write_c \
+sim:/pipelinerisc/ao_e_in \
+sim:/pipelinerisc/ao_e_in_a \
+sim:/pipelinerisc/ao_e_in_b \
+sim:/pipelinerisc/ao_e_in_c \
+sim:/pipelinerisc/rf_a3_in \
+sim:/pipelinerisc/rf_a3_in_a \
+sim:/pipelinerisc/rf_a3_in_b \
+sim:/pipelinerisc/rf_a3_in_c \
+sim:/pipelinerisc/rf_a3_in_d \
+sim:/pipelinerisc/rf_d3_in \
+sim:/pipelinerisc/rf_d3_in_a \
+sim:/pipelinerisc/rf_d3_in_b \
+sim:/pipelinerisc/rf_d3_in_c \
+sim:/pipelinerisc/rf_d3_in_d \
+sim:/pipelinerisc/reg_write \
+sim:/pipelinerisc/reg_write_a \
+sim:/pipelinerisc/reg_write_b \
+sim:/pipelinerisc/reg_write_c \
+sim:/pipelinerisc/reg_write_d \
+sim:/pipelinerisc/reset \
+sim:/pipelinerisc/pc_freeze \
+sim:/pipelinerisc/flag_LMSM \
+sim:/pipelinerisc/zero \
+sim:/pipelinerisc/carry \
+sim:/pipelinerisc/eq \
+sim:/pipelinerisc/eq_p \
+sim:/pipelinerisc/flag_c \
+sim:/pipelinerisc/flag_z \
+sim:/pipelinerisc/flush_status \
+sim:/pipelinerisc/flush_status_tmp \
+sim:/pipelinerisc/stalling \
+sim:/pipelinerisc/flush \
+sim:/pipelinerisc/flush_tmp \
+sim:/pipelinerisc/freeze \
+sim:/pipelinerisc/pcf_in \
+sim:/pipelinerisc/alu_af_in_a \
+sim:/pipelinerisc/alu_af_in_b \
+sim:/pipelinerisc/alu_af_in \
+sim:/pipelinerisc/alu_bf_in_a \
+sim:/pipelinerisc/alu_bf_in_b \
+sim:/pipelinerisc/alu_bf_in \
+sim:/pipelinerisc/pc_out \
+sim:/pipelinerisc/state_array \
+sim:/pipelinerisc/mux1_in0 \
+sim:/pipelinerisc/mux1_in1 \
+sim:/pipelinerisc/mux1_in2 \
+sim:/pipelinerisc/mux1_in3 \
+sim:/pipelinerisc/mux1_out \
+sim:/pipelinerisc/mux2_in0 \
+sim:/pipelinerisc/mux2_in1 \
+sim:/pipelinerisc/mux2_out \
+sim:/pipelinerisc/mux3_in0 \
+sim:/pipelinerisc/mux3_in1 \
+sim:/pipelinerisc/mux3_out \
+sim:/pipelinerisc/mux4_in0 \
+sim:/pipelinerisc/mux4_in1 \
+sim:/pipelinerisc/mux4_out \
+sim:/pipelinerisc/mux5_in0 \
+sim:/pipelinerisc/mux5_in1 \
+sim:/pipelinerisc/mux5_in2 \
+sim:/pipelinerisc/mux5_in3 \
+sim:/pipelinerisc/mux5_out \
+sim:/pipelinerisc/mux6_in0 \
+sim:/pipelinerisc/mux6_in1 \
+sim:/pipelinerisc/mux6_in2 \
+sim:/pipelinerisc/mux6_in3 \
+sim:/pipelinerisc/mux6_out \
+sim:/pipelinerisc/mux7_in0 \
+sim:/pipelinerisc/mux7_in1 \
+sim:/pipelinerisc/mux7_out \
+sim:/pipelinerisc/mux8_in0 \
+sim:/pipelinerisc/mux8_in1 \
+sim:/pipelinerisc/mux8_out \
+sim:/pipelinerisc/mux9_in0 \
+sim:/pipelinerisc/mux9_in1 \
+sim:/pipelinerisc/mux9_out \
+sim:/pipelinerisc/mux10_in0 \
+sim:/pipelinerisc/mux10_in1 \
+sim:/pipelinerisc/mux10_in2 \
+sim:/pipelinerisc/mux10_in3 \
+sim:/pipelinerisc/mux10_out \
+sim:/pipelinerisc/mux11_in0 \
+sim:/pipelinerisc/mux11_in1 \
+sim:/pipelinerisc/mux11_out \
+sim:/pipelinerisc/mux12_in0 \
+sim:/pipelinerisc/mux12_in1 \
+sim:/pipelinerisc/mux12_in2 \
+sim:/pipelinerisc/mux12_in3 \
+sim:/pipelinerisc/mux12_out \
+sim:/pipelinerisc/mux13_in0 \
+sim:/pipelinerisc/mux13_in1 \
+sim:/pipelinerisc/mux13_out \
+sim:/pipelinerisc/fmux1_in0 \
+sim:/pipelinerisc/fmux1_in1 \
+sim:/pipelinerisc/fmux1_in2 \
+sim:/pipelinerisc/fmux1_in3 \
+sim:/pipelinerisc/fmux1_out \
+sim:/pipelinerisc/fmux2_in0 \
+sim:/pipelinerisc/fmux2_in1 \
+sim:/pipelinerisc/fmux2_in2 \
+sim:/pipelinerisc/fmux2_in3 \
+sim:/pipelinerisc/fmux2_out \
+sim:/pipelinerisc/fmux3_in0 \
+sim:/pipelinerisc/fmux3_in1 \
+sim:/pipelinerisc/fmux3_in2 \
+sim:/pipelinerisc/fmux3_in3 \
+sim:/pipelinerisc/fmux3_out \
+sim:/pipelinerisc/pc_a \
+sim:/pipelinerisc/ir_a \
+sim:/pipelinerisc/ipc_a \
+sim:/pipelinerisc/pc_b \
+sim:/pipelinerisc/ir_b \
+sim:/pipelinerisc/ipc_b \
+sim:/pipelinerisc/pc_c \
+sim:/pipelinerisc/ir_c \
+sim:/pipelinerisc/ipc_c \
+sim:/pipelinerisc/r1_c \
+sim:/pipelinerisc/r2_c \
+sim:/pipelinerisc/pc_d \
+sim:/pipelinerisc/ir_d \
+sim:/pipelinerisc/ipc_d \
+sim:/pipelinerisc/r1_d \
+sim:/pipelinerisc/r2_d \
+sim:/pipelinerisc/ao_d \
+sim:/pipelinerisc/pc_e \
+sim:/pipelinerisc/ir_e \
+sim:/pipelinerisc/ao_e \
+sim:/pipelinerisc/bm_c \
+sim:/pipelinerisc/bm_d \
+sim:/pipelinerisc/bm_e \
+sim:/pipelinerisc/im_out \
+sim:/pipelinerisc/adder1_out \
+sim:/pipelinerisc/adder2_out \
+sim:/pipelinerisc/alu_out \
+sim:/pipelinerisc/padder_out \
+sim:/pipelinerisc/se1_out \
+sim:/pipelinerisc/se2_out \
+sim:/pipelinerisc/mem_dout \
+sim:/pipelinerisc/rf_d1 \
+sim:/pipelinerisc/rf_d2 \
+sim:/pipelinerisc/r7_data \
+sim:/pipelinerisc/prienc1_out \
+sim:/pipelinerisc/prienc2_out \
+sim:/pipelinerisc/fsm_write \
+sim:/pipelinerisc/bitrem_out \
+sim:/pipelinerisc/fsmc_write \
+sim:/pipelinerisc/fsmz_write
+force -freeze sim:/pipelinerisc/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/pipelinerisc/nrst 0 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/adder2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/reg_file
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/im
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/adder1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/alu_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/im
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /pipelinerisc/hdu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/reg_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/alu_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /pipelinerisc/fwd_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /pipelinerisc/alu_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ps  Iteration: 3  Instance: /pipelinerisc/reg_file
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 6  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 6  Instance: /pipelinerisc/alu_unit
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ps  Iteration: 7  Instance: /pipelinerisc/alu_unit
+force -freeze sim:/pipelinerisc/nrst 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 20:57:55 on Nov 30,2018, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 148

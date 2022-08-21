@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 30 20:50:14 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : PipelineRISC
+Top-level Entity Name : PipelineRISC
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 5,790 / 22,320 ( 26 % )
+    Total combinational functions : 3,460 / 22,320 ( 16 % )
+    Dedicated logic registers : 4,518 / 22,320 ( 20 % )
+Total registers : 4518
+Total pins : 131 / 154 ( 85 % )
+Total virtual pins : 0
+Total memory bits : 16,640 / 608,256 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

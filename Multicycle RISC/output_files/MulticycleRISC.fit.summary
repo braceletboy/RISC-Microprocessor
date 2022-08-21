@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Nov 08 17:05:35 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : MulticycleRISC
+Top-level Entity Name : TopLevel
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 5,724 / 22,320 ( 26 % )
+    Total combinational functions : 3,242 / 22,320 ( 15 % )
+    Dedicated logic registers : 4,557 / 22,320 ( 20 % )
+Total registers : 4557
+Total pins : 2 / 154 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 20,480 / 608,256 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

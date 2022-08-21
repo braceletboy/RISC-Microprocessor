@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Equal is
+	port(
+		eq_a : in std_logic_vector(15 downto 0);
+		eq_b : in std_logic_vector(15 downto 0);
+		eq : out std_logic
+	);
+end entity;

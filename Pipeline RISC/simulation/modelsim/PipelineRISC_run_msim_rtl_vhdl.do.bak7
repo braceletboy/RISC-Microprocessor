@@ -1,0 +1,31 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {D:/Pipeline RISC/status_file.vhd}
+vcom -93 -work work {D:/Pipeline RISC/priority_encoder.vhd}
+vcom -93 -work work {D:/Pipeline RISC/hazard_unit.vhd}
+vcom -93 -work work {D:/Pipeline RISC/FSM.vhd}
+vcom -93 -work work {D:/Pipeline RISC/forwarding_unit.vhd}
+vcom -93 -work work {D:/Pipeline RISC/ALU.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Mux2.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Mux4.vhd}
+vcom -93 -work work {D:/Pipeline RISC/BitRem.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipeRegA.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipeRegB.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipeRegC.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipeRegD.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipeRegE.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Controller.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Padder.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Equal.vhd}
+vcom -93 -work work {D:/Pipeline RISC/Adder.vhd}
+vcom -93 -work work {D:/Pipeline RISC/DataMem.vhd}
+vcom -93 -work work {D:/Pipeline RISC/InstrMem.vhd}
+vcom -93 -work work {D:/Pipeline RISC/RegFile.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PC.vhd}
+vcom -93 -work work {D:/Pipeline RISC/PipelineRISC.vhd}
+

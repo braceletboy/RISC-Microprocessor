@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity PipeRegA is
+	port(
+		flush : in std_logic;
+		freeze : in std_logic;
+		pc_a_din : in std_logic(15 downto 0);
+		ir_a_din : in std_logic(15 downto 0);
+		ipc_a_din : in std_logic(15 downto 0);
+	);

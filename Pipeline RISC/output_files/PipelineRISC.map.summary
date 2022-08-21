@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 30 20:49:55 2018
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : PipelineRISC
+Top-level Entity Name : PipelineRISC
+Family : Cyclone IV E
+Total logic elements : 6,964
+    Total combinational functions : 3,458
+    Dedicated logic registers : 4,518
+Total registers : 4518
+Total pins : 131
+Total virtual pins : 0
+Total memory bits : 16,640
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

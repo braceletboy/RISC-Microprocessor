@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity SignExtender9 is
+    port (
+        data_in : in std_logic_vector(8 downto 0);
+        clk : in std_logic;
+        data_out : out std_logic_vector(15 downto 0)
+    );
+end entity;
+
+architecture WhatDoYouCare of SignExtender9 is
+begin
+
+    
+    data_out(15) <= '0';
+    data(14) <= '0';
+    routs9(13) <= '0';
+    routs9(12) <= '0';
+    routs9(11) <= '0';
+    routs9(10) <= '0';
+    routs9(9) <= datas9(9);
+    routs9(8) <= datas9(8);
+    routs9(7) <= datas9(7);
+    routs9(6) <= datas9(6);
+    routs9(5) <= datas9(5);
+    routs9(4) <= datas9(4);
+    routs9(3) <= datas9(3);
+    routs9(2) <= datas9(2);
+    routs9(1) <= datas9(1);
+    routs9(0) <= datas9(0);
+
+end WhatDoYouCare;

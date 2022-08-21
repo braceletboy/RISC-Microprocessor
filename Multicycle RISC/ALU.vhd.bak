@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+library std;
+use std.standard.all;
+
+entity ALU is
+	port(a,b: in std_logic_vector(16 downto 0) := "00000000000000000";
+			opSelect:in std_logic_vector(1 downto 0); output: out std_logic_vector(15 downto 0); 
+			z,c,eq: out std_logic);
+end entity;
+
+architecture alu_arch of ALU is
+	shared variable output1: std_logic_vector(16 downto 0);
+	shared variable z_var, c_var, eq_var: std_logic;
+begin
+		output(0) <= output1(0);
+		output(1) <= output1(1);
+		output(2) <= output1(2);
+		output(3) <= output1(3);
+		output(4) <= output1(4);
+		output(5) <= output1(5);
+		output(6) <= output1(6);
+		output(7) <= output1(7);
+		output(8) <= output1(8);
+		output(9) <= output1(9);
+		output(10) <= output1(10);
+		output(11) <= output1(11);
+		output(12) <= output1(12);
+		output(13) <= output1(13);
+		output(14) <= output1(14);
+		output(15) <= output1(15);
+		z <= z_var;
+		c <= c_var;
+		eq <= eq_var;
+process(a,b,opSelect)
+	begin
+		if (opSelect="00") then
+			output1 := a + b;
+			c_var := output1(16);
+			if (output1 = "10000000000000000") or (output1 = "00000000000000000") then
+				z_var := '1';
+			end if;
+		
+		elsif (opSelect="01") then
+			output1 := a nand b;
+			if (output1 = "10000000000000000") or (output1 = "00000000000000000") then
+				z_var := '1';
+			end if;
+		
+		elsif (opSelect = "10") then
+			if (a = b) then
+				eq_var := '1';
+			end if;
+		end if;
+end process;
+end alu_arch;

@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Adder is
+	port(
+		data_in : in std_logic_vector(15 downto 0);
+		data_out : in std_logic_vector(15 downto 0)
+	);
+end Adder;
